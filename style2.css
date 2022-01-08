@@ -1,0 +1,11 @@
+.a {
+    color: rgb(74, 43, 94);
+    text-align: center;
+    width: 49%;
+    margin-left: 25%;
+    margin-top: 15%;
+    padding: 1%;
+    font-size: 20px;
+    box-shadow: 5px 10px 28px #235852;
+    border-radius: 25px;
+}

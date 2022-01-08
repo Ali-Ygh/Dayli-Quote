@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Daily Quote</title>
+</head>
+<body style="background-image: radial-gradient(circle, #99e2b4, #7bcaa5, #5eb196, #429987, #248277);">
+    <div class="a">
+       <h2 id="day"></h2>
+       <p id="text"></p>
+       <p id= "narrator"></p>
+       <script>
+           let day;
+           let text;
+           let nar;
+           switch(new Date().getDay()){
+               case 0:
+               day="یکشسنبه";
+               text=".ماموریت حقیقی هرکسی این است: کامیابی از خویشتن"
+               nar="(هرمان هسه)"
+               break;
+               case 1:
+               day = "دوشنبه"
+               text = ".انسان به مقداری جنون هم نیاز دارد. وگرنه هرگز به پاره کردن بندهایش برای کسب آزادی خطر نمی کند"
+               nar = "(نیکوس کازانتزاکیس)"
+               break;
+               case 2:
+               day = "سه شنبه"
+               text=".همان طور که به پرندگان دریایی چشم دوخته بودم. فکر کردم: این راهی است که باید رفت. آهنگ موزون آن را پیدا کن و با ایمانی راسخ در آن گام بنه"
+               nar = "(نیکوس کازانتزاکیس)"
+               break;
+               case 3:
+               day = "چهارشنبه"
+               text = ".تنها آرامش و سکوت . سرچشمه نیروی ابدی و جاوید است"
+               nar = "(داستایوفسکی)"
+               break;
+               case 4:
+               day = "پنجشنبه"
+               text = ".هر کس فقط یک وظیفه حقیقی بر عهد اوست و آن یافتن راهی به ضمیر خویش است…و هر کاری جز این ، تلاش بی فاید است کوششی برای فرار از حقایق است. پذیرش افکار وخواسته‌های عوام الناس ، نشان دهنده تسلیم و ترس ادمیست"
+               nar = "(هرمان هسه)"
+               break;
+               case 5:
+               day = "جمعه"
+               text= ".کسی که فقط با امید دستیابی به نعمت‌های مادی، دست به مبارزه می‌زند، خویشتن را از موهبتی که شایسته‌ی زندگی‌ست، بی‌بهره می‌سازد."
+               nar = "(آنتوان دوسنت اگزوپری)"
+               break;
+               case 6:
+               day = "شنبه"
+               text = ".آنچه آدمی را والا می کند مدت احساس های والا در اوست نه شدت آن احساس ها."
+               nar = "(فریدریش ویلهلم نیچه)"
+               break;
+           }
+        document.getElementById("day").innerHTML = day;
+        document.getElementById("text").innerHTML = text;
+        document.getElementById("narrator").innerHTML = nar;
+       </script>  
+</div>
+</body>
+</html>
